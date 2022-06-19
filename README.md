@@ -30,6 +30,10 @@ In the open console, you can paste the script and click on "execute". You will b
 
 ![video_tutorial](readme-assets/scrap-moodle.gif)
 
+### Troubleshooting
+
+If the script does not launch after a dozen of seconds, try to reload the page and restart it!
+
 ### What this script does
 
 This script goes through all resources present on the main page and download these, bypassing the Moodle protection. This could be done by hand and is not forbidden, it's just faster. However be aware that batch sharing the material on public platforms follows other laws, make sure not to break these ;)
