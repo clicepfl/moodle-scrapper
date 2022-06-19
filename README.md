@@ -1,10 +1,14 @@
 # moodle-scrapper
 
-Downloading all the content from Moodle course page is tremendously long and boring. This script aims to automate the download of a Moodle page's available material.
+Downloading each PDF file from a Moodle page by hand is long and boring. This script aims to ease this task and allow to batch download each PDF on a moodle course page. 
 
 ## History
 
-In order to archive material and be able to efficiently work for exams, it's useful to get all documents. Moodle has "protections" to prevent batch downloads. This scripts aims to be a workaround the workaround :)
+In order to archive material and be able to efficiently work for exams, it's useful to get all the documents uploaded throughout a course semester. Moodle has "protections" to prevent batch downloads. This scripts aims to be a workaround the workaround :)
+
+## Who is this for
+
+This script was written for helping the people who are trying to download, once in the end of the semester, all the slides/exercices/corrections of weekly uploaded Moodle material. This is not a "one does all" tool, it's just a little helper for eventual bigger task (self revision session organisation, contributing to material archiving, ...)
 
 ## Usage
 
@@ -36,10 +40,10 @@ If the script does not launch after a dozen of seconds, try to reload the page a
 
 ### What this script does
 
-This script goes through all resources present on the main page and download these, bypassing the Moodle protection. This could be done by hand and is not forbidden, it's just faster. However be aware that batch sharing the material on public platforms follows other laws, make sure not to break these ;)
+This script goes through all resources present on the main course page and download these, bypassing the Moodle protection. This could be done by hand and is not forbidden, it's just faster. However be aware that batch sharing the material on public platforms follows other laws, make sure not to break these ;)
 
 This script only downloads PDF files (slides and lecture notes in general). For convenience, we did not include other types of media as these could be large (mp4 video) or redundant (pptx of the PDF).
 
 ### What this script does not
 
-This script does not download files of type other than PDF nor does it download file present in "folder" or forums.
+This script does not download files of type other than PDF nor does it download file present in "folder" or forums. This script does not download multiple courses at once.
