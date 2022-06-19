@@ -10,11 +10,11 @@ In order to archive material and be able to efficiently work for exams, it's use
 
 ### Avoid opening all in tabs
 
-First, make sure that you do not have automatic opening of PDF files (this will avoid having 35+ open tabs by the script). For example in Firefox: ![change_pdf_download_settings](readme-assets/change_pdf_download_settings.png).
+First, make sure that you do not have automatic opening of PDF files (this will avoid having 35+ open tabs by the script). For example in Firefox: ![change_pdf_download_settings](readme-assets/change_pdf_download_settings.png)
 
 ### Where this script can be used
 
-You can use the script once in a course's page. For example, you can go to the AICC-II course page via [https://moodle.epfl.ch/course/view.php?id=15838](https://moodle.epfl.ch/course/view.php?id=15838).
+You can use the script once in a course's page. For example, you can go to the AICC-II course page via [https://moodle.epfl.ch/course/view.php?id=15838](https://moodle.epfl.ch/course/view.php?id=15838)
 
 ### Where to put the script
 
@@ -24,7 +24,11 @@ The script uses JavaScript and should be run in the interactive console of your 
 
 ![console_location_2](readme-assets/console_location_2.png)
 
-In the open console, you can paste the script and click on "execute". You will be prompted for the download of each files (you can select "apply same rule to all" and download everything at once) 🥳.
+### How to run the script
+
+In the open console, you can paste the script and click on "execute". You will be prompted for the download of each files (you can select "apply same rule to all" and download everything at once) 🥳. See the video tutorial.
+
+![video_tutorial](readme-assets/scrap-moodle.gif)
 
 ### What this script does
 
