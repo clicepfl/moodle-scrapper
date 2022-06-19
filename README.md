@@ -26,7 +26,7 @@ The script uses JavaScript and should be run in the interactive console of your 
 
 ### How to run the script
 
-In the open console, you can paste the script and click on "execute". You will be prompted for the download of each files (you can select "apply same rule to all" and download everything at once) 🥳. See the video tutorial.
+In the open console, you can paste the script and click on "execute". You will be prompted for the download of each files (**you can select "apply same rule to all" and download everything at once**) 🥳. See the video tutorial.
 
 ![video_tutorial](readme-assets/scrap-moodle.gif)
 
