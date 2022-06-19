@@ -1,6 +1,6 @@
 # moodle-scrapper
 
-Downloading each PDF file from a Moodle page by hand is long and boring. This script aims to ease this task and allow to batch download each PDF on a moodle course page. 
+Downloading each PDF file from a Moodle course page by hand is long and boring. This script aims to ease this task and allow to batch download each PDF on a moodle course page. 
 
 ## History
 
