@@ -55,10 +55,10 @@ function httpGetAsync(theUrl, response_type, callback, filename) {
 
 }
 
-links = document.getElementsByClassName("aalink")
+links = document.getElementsByClassName(" aalink stretched-link")
 test = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for (const link_id in links) {
-  if (links[link_id].href != undefined && links[link_id].href.includes("moodle.epfl.ch/mod/resource")) {
+  if (links[link_id].href != undefined && links[link_id].href.includes("/mod/resource")) {
     // we make sure to query only resources (not forums or quizzes)
     httpGetAsync(links[link_id].href, "document", callback_get_last_link, links[link_id].text);
   }
